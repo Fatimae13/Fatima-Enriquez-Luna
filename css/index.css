@@ -1,5 +1,23 @@
+nav ul{
+    list-style: none;
+    padding: 20px;
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+}
+
+nav ul a{
+    text-decoration: dotted;
+    color:bisque;
+    padding: 2px 20px;
+    background-color: black;
+    border-radius: 5px;
+
+}
+
+
 body{
-    background-color:rgb(127, 177, 127) ;
+    background-color:rgb(147, 212, 165) ;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -7,7 +25,7 @@ body{
 h1{
     text-align: center;
     font-size: 3em;
-    color:black
+    color:black;
 }
 
 section{
@@ -17,16 +35,30 @@ section{
 
 #About {
     text-align: center;
-    background-color: plum;
+    background-color: lightblue;
+}
+
+h2 {
+    text-align: center;
 }
 
 #Experience ul {
     list-style-type: none;
-    padding: 0;
+    padding: 0ptx;
+    display:flex;
+    background-color: beige;
+    text-align: center;
+
+}
+
+#Connect {
+    text-align: center;
+    background-color: rgb(211, 214, 243);
 }
 
 #Connect a {
-    color:lightskyblue
+    color:rgb(230, 97, 117)
+    
 }
 
 #Connect a:hover {
