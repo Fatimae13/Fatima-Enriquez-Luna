@@ -21,18 +21,16 @@ section{
 }
 
 #Experience ul {
-    list-style-type: style type bulle;
     padding: 0;
     display: block;
     background-color:beige;
 }
 
 #Connect a {
-    color:lightskyblue
+    color:aliceblue
 }
 
 #Connect a:hover {
-    color:lightpink;
-    text-decoration: underline;
-    text-decoration: blanchedalmond;
+    color:bisque;
+    text-decoration: underline; 
 }
