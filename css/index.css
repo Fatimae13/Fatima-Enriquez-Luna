@@ -1,16 +1,15 @@
 nav ul{
     list-style: none;
-    padding: 20px;
-    display: flex;
-    flex-wrap: wrap;
-    gap: 12px;
+    text-align: center;
+    display:block
+    font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul a{
     text-decoration: dotted;
     color:bisque;
     padding: 2px 20px;
-    background-color: black;
+    background-color: black ;
     border-radius: 5px;
 
 }
@@ -45,7 +44,7 @@ h2 {
 #Experience ul {
     list-style-type: none;
     padding: 0ptx;
-    display:flex;
+    display:block;
     background-color: beige;
     text-align: center;
 
@@ -54,10 +53,11 @@ h2 {
 #Connect {
     text-align: center;
     background-color: rgb(211, 214, 243);
+    display: flex;
 }
 
 #Connect a {
-    color:rgb(230, 97, 117)
+    color:rgb(230, 97, 117);
     
 }
 
