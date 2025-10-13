@@ -90,6 +90,12 @@ header nav ul {
     
 }
 
+#Project {
+    list-style: none;
+    display: flexbox;
+    background-color: darkslategray;
+}
+
 /* ================================================================== */
 /* TABLET */
 /* ================================================================== */
