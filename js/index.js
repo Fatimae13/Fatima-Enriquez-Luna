@@ -10,7 +10,7 @@ let footer = document.createElement("footer");
 
 
 const copyright = document.createElement("p");
-copyright.innerHTML = `\u00A9 Fatima Enriquez ${thisYear}`;
+copyright.innerHTML = `\u00A09 Fatima Enriquez ${thisYear}`;
 footer.appendChild(copyright);
 
 footer.style.textAlign = "center"; 
