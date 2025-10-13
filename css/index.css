@@ -1,22 +1,25 @@
 nav ul{
     list-style: none;
+    font-weight: bold;
     text-align: center;
+    margin-bottom: 0.625 rem ;
+    width: 100%;
     display:block;
     font-family: Georgia, 'Times New Roman', Times, serif;
 }
 
 nav ul a{
     text-decoration: dotted;
-    color:bisque;
+    color:rgb(15, 15, 15);
     padding: 0.125rem  1.25rem;
-    background-color: black ;
+    background-color: rgb(224, 156, 156) ;
     border-radius: 0.3125rem;
 
 }
 
 
 body{
-    background-color:rgb(202, 231, 210) ;
+    background-color:rgb(250, 250, 234) ;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -45,7 +48,7 @@ h2 {
     list-style-type: none;
     padding: 0rem;
     display:block;
-    background-color: beige;
+    background-color: rgb(194, 235, 208);
     text-align: center;
 
 }
@@ -73,6 +76,20 @@ h2 {
     gap: 10 px;
     justify-content: center;
 }
+
+header nav ul {
+    gap: 2rem
+} 
+
+#Form {
+    list-style: none;
+    padding: 0;
+    text-align: center;
+    background-color: aliceblue;
+    display: block;
+    
+}
+
 /* ================================================================== */
 /* TABLET */
 /* ================================================================== */

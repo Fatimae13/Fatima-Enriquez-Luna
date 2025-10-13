@@ -1,23 +1,27 @@
 <!DOCTYPE html>
-<html lang="eng">
-<nav>
-  <ul>
-    <li><a href="#About">About</a></li>
-    <li><a href="#Experience">Experience</a></li>
-    <li><a href="#Connect">Connect</a></li>
-    <li><a href="#Skills">Skills</a></li>
-    <li><a href="#Projects">Projects</a></li>
-  </ul>
-</nav>
+<html lang="en">
+
 <head>
     <title>My Portfolio</title>
     <meta name="author" content="Fatima Enriquez">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/index.css">
 </head>
-<html>
+
 
 <body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#About">About</a></li>
+                <li><a href="#Experience">Experience</a></li>
+                <li><a href="#Connect">Connect</a></li>
+                <li><a href="#Skills">Skills</a></li>
+                <li><a href="#Projects">Projects</a></li>
+                <li><a href="#Form">Leave a Message</a></li>
+            </ul>
+        </nav>
+    </header>
     <h1>Fatima Enriquez</h1>
     <section id="About">
         <h2>About</h2>
@@ -39,11 +43,34 @@
         <h2>Skills</h2>
         <ul></ul>
     </section>
+     <ul></ul>
     <section id="Projects">
         <h2>Projects</h2>
         <ul></ul>
     </section>
-    <script scr="js/index.js"></script>
+    <selection id="Form">
+        <h2> Leave a Message</h2>
+        <form name="leave_messages">
+            <label for="usersName">Name:</label><br>
+            <input type="text" id="userName" name="usersName" required><br><br>
+            
+            <label for="usersEmail">Email:</label><br>
+            <input type="email" id="usersEmail" name="usersEmail" required><br><br>
+
+            <label for="usersMessage">Messages:</label><br>
+            <textarea id="usersMessage" name="usersMessage" required></textarea><br><br>
+
+            <button type="submit">Submit</button>
+        </form>
+    </selection>
+    <section id="Messages">
+        <h2>Messages</h2>
+        <ul>
+
+        </ul>
+    </section>
+    <footer>Copyright Fatima Enriquez 2025</footer>
+      <script src="js/index.js"></script>
 </body>
 </html>
 
