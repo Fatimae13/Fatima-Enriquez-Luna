@@ -1,25 +1,39 @@
-nav ul{
-    list-style: none;
-    font-weight: bold;
-    text-align: center;
-    margin-bottom: 0.625 rem ;
-    width: 100%;
-    display:block;
-    font-family: Georgia, 'Times New Roman', Times, serif;
+#nav {
+  list-style: none;
+  font-weight: bold;
+  margin-bottom: 10px;
+  width: 100%;
+  text-align: center;
 }
 
-nav ul a{
-    text-decoration: dotted;
-    color:rgb(15, 15, 15);
-    padding: 0.125rem  1.25rem;
-    background-color: rgb(224, 156, 156) ;
-    border-radius: 0.3125rem;
-
+#nav ul {
+  list-style-type: none;
+  margin: 0px;
+  padding: 0;
+  display:inline-block;
 }
 
+#nav li {
+  margin: 0px;
+  display: inline-block;
+}
+
+#nav li a {
+  display: block;
+  padding: 10px 15px;
+  text-decoration: none;
+  font-weight: bold;
+  color: #FFFFFF;
+  background-color: #ebb3b3;
+}
+
+#nav li a:hover {
+  color: #FFFFFF;
+  background-color: #ecd8e6;
+}
 
 body{
-    background-color:rgb(250, 250, 234) ;
+    background-color:rgb(250, 250, 243) ;
     color: black;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
 }
@@ -27,17 +41,24 @@ body{
 h1{
     text-align: center;
     font-size: 1.5em;
+    font-weight: 700;
     color:black;
+    text-transform: uppercase;
+    margin-top: 50 px;
 }
 
 section{
     margin: 1.25rem;
     padding: 1.25rem;
+    border-radius: 8 px;
+
 }
 
 #About {
     text-align: center;
-    background-color: rgb(196, 224, 234);
+    background-color: #ceefe9;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #bef4eb
 }
 
 h2 {
@@ -48,15 +69,24 @@ h2 {
     list-style-type: none;
     padding: 0rem;
     display:block;
-    background-color: rgb(194, 235, 208);
     text-align: center;
+}
 
+#Experience {
+    background-color: #f2eae0;
+    padding: 20 px;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #f7bca2;
 }
 
 #Connect {
     text-align: center;
-    background-color: rgb(214, 216, 234);
+    background-color: #d5f3f2;
     display: block;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #93d1cf;
 }
 
 #Connect a {
@@ -77,9 +107,36 @@ h2 {
     justify-content: center;
 }
 
+#Skills {
+    background-color: #eae3f6;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #edcce8;
+}
+
 header nav ul {
     gap: 2rem
 } 
+
+#Projects {
+    list-style-type: none;
+    padding: 0;
+    text-align: center;
+    display: block;
+    background-color: rgb(247, 231, 229) ;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #f7bca2;
+}
+
+#Projects a {
+    color:rgb(230, 97, 117);
+}
+
+#Projects a:hover {
+    color:lightpink;
+    text-decoration: underline;
+}
 
 #Form {
     list-style: none;
@@ -87,39 +144,62 @@ header nav ul {
     text-align: center;
     background-color: aliceblue;
     display: block;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #c6def1;
     
 }
 
-#Project {
-    list-style: none;
-    display: flexbox;
-    background-color: darkslategray;
+#Messages {
+    background-color: #feedf4;
+    text-align: center;
+    display: flex-block;
+    margin-bottom: 0.938rem;
+    border-radius: 0.5rem;
+    box-shadow: 0 0.125rem 0.313rem #c6def1;
 }
 
 /* ================================================================== */
 /* TABLET */
 /* ================================================================== */
 
-@media (min-width: 768px){
-h1 {
-    font-size: 2.5em;
-    margin-top: 3rem;
-}
-
+@media (max-width: 768px){
 header nav ul {
     gap: 2rem
 }
 
+#nav li {
+    display:block;
+    margin: 5px 0;
+}
 
+#nav ul {
+    display: block;
+    width: 100%;
+    padding: 0;
+}
 
+#nav li a {
+    padding: 2px ;
+    font-size: 1rem;
+}
+h1 {
+    font-size: 2.5em;
+    margin-top: 3rem;
+}
 }
 
 /* ================================================================== */
 /* DESKTOP */
 /* ================================================================== */
 @media (min-width: 1024px) {
-  h1{
-    font-size: 3.5em;
-    margin-top: 3.5em;
-  }  
+  
+  h1 {
+    font-size: 3.5rem;
+    margin-top: 3.5rem;
+  }
+
+  h2 {
+    font-size: 1.5rem;
+  }
 }
