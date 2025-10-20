@@ -91,7 +91,7 @@ fetch("https://api.github.com/users/Fatimae13/repos")
         const projectList = projectSection.querySelector("ul");
         projectList.innerHTML = "";
 
-        for (let i=0; i < repositories.lenght; i++) {
+        for (let i=0; i < repositories.length; i++) {
             const project = document.createElement("li");
             const link = document.createElement("a");
             link.href = repositories[i].html_url;
